@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 02:24-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Xuan Wu <fromwheretowhere.service@gmail.com>\n"
+"Language-Team: Chinese <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../tutorial/index.rst:5
 msgid "The Python Tutorial"
-msgstr ""
+msgstr "Python 入门教程"
 
 #: ../../tutorial/index.rst:7
 msgid ""
@@ -29,7 +29,7 @@ msgid ""
 "typing, together with its interpreted nature, make it an ideal language "
 "for scripting and rapid application development in many areas on most "
 "platforms."
-msgstr ""
+msgstr "Python 是种易学而强大的编程语言. 它包含了高效的高级数据结构, 能够用简单而高效的方式进行面向对象编程.Python 优雅的语法和和动态类型,以及它天然的解释能力, 使其成为了大多数平台上能广泛适用于各领域的理想脚本语言和开发环境."
 
 #: ../../tutorial/index.rst:13
 msgid ""
@@ -40,6 +40,10 @@ msgid ""
 "third party Python modules, programs and tools, and additional "
 "documentation."
 msgstr ""
+"Python 解释器及其扩展标准库的源码和编译版本可以从 Python 的 Web 站点 "
+"https://www.python.org "
+"及其所有镜像站点上获得, 并且可以自由发布."
+"该站点上也提供了 Python 的一些第三方模块, 程序, 工具以及附加的文档."
 
 #: ../../tutorial/index.rst:19
 msgid ""
@@ -48,6 +52,8 @@ msgid ""
 "Python is also suitable as an extension language for customizable "
 "applications."
 msgstr ""
+"Python 的解释器可以很容易的通过 C 或者 C++  (或者其它可以通过 C 调用的语言) 扩展新的函式和数据类型."
+"Python 也可以作为定制应用的扩展语言."
 
 #: ../../tutorial/index.rst:23
 msgid ""
@@ -56,6 +62,8 @@ msgid ""
 "interpreter handy for hands-on experience, but all examples are self-"
 "contained, so the tutorial can be read off-line as well."
 msgstr ""
+"本教程向读者介绍 Python 语言及其体系的基本知识与概念. 配合 Python 解释器学习会很有帮助,"
+"因为文中己包含所有的完整例子, 所以这本手册也可以离线阅读."
 
 #: ../../tutorial/index.rst:28
 msgid ""
@@ -65,6 +73,10 @@ msgid ""
 "and :ref:`c-api-index`. There are also several books covering Python in "
 "depth."
 msgstr ""
+"需要有关标准对象和模块的详细介绍的话, 请参阅 :ref:`库参考手册 <library-index>`."
+"而 :ref:`语言手册 <reference-index>` 提供了更多关于语言本身的正式说明."
+"需要编写 C 或 C++ 扩展, 请阅读 :ref:`扩展和嵌入 <extending-index>` 以及 :ref:`对C接口 <c-api-index>`."
+"这几部分涵盖了Python 各领域的深入知识."
 
 #: ../../tutorial/index.rst:33
 msgid ""
@@ -76,8 +88,14 @@ msgid ""
 "learn more about the various Python library modules described in :ref"
 ":`library-index`."
 msgstr ""
+"这份入门教程并未尝试讲解和涵盖 Python 的所有特性,"
+"甚至也没有包含所有常用特性."
+"相反的, 只介绍 Python 中最引人注目的功能,"
+"这对读者掌握这门语言的风格大有帮助."
+"读完后,你应该已能阅读和编写 Python 模块和程序,"
+"接下去就可以从 Python :ref:`库参考手册 <library-index>` 中进一步学习 Python 丰富库和模块."
 
 #: ../../tutorial/index.rst:40
 msgid "The :ref:`glossary` is also worth going through."
-msgstr ""
+msgstr ":ref:`术语表 <glossary>` 也值得仔细阅读."
 
