@@ -172,6 +172,11 @@ msgid ""
 "...\n"
 "Be careful not to fall off!"
 msgstr ""
+">>> 世界是平的 = True\n"
+">>> if 世界是平的:\n"
+"...     print(\"小心坠崖!\")\n"
+"...\n"
+"小心坠崖!"
 
 #: ../../tutorial/interpreter.rst:119
 msgid "For more on interactive mode, see :ref:`tut-interac`."
