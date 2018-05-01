@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../glossary.rst:41
 msgid "argument"
-msgstr ""
+msgstr "argument(参数)"
 
 #: ../../glossary.rst:43
 msgid ""
