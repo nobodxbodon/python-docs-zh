@@ -1628,7 +1628,7 @@ msgstr ""
 
 #: ../../glossary.rst:949
 msgid "slice"
-msgstr ""
+msgstr "slice(截取)"
 
 #: ../../glossary.rst:951
 msgid ""
