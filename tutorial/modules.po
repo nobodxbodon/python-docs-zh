@@ -53,6 +53,12 @@ msgid ""
 "favorite text editor to create a file called :file:`fibo.py` in the "
 "current directory with the following contents::"
 msgstr ""
+"A module is a file containing Python definitions and statements.  The "
+"file name is the module name with the suffix :file:`.py` appended.  "
+"Within a module, the module's name (as a string) is available as the "
+"value of the global variable ``__name__``.  For instance, use your "
+"favorite text editor to create a file called :file:`斐波.py` in the "
+"current directory with the following contents::"
 
 #: ../../tutorial/modules.rst:28
 msgid ""
@@ -73,6 +79,22 @@ msgid ""
 "        a, b = b, a+b\n"
 "    return result"
 msgstr ""
+"# 斐波那契数字模块\n"
+"\n"
+"def 斐(n):    # 打印小于n的斐波那契数列\n"
+"    a, b = 0, 1\n"
+"    while b < n:\n"
+"        print(b, end=' ')\n"
+"        a, b = b, a+b\n"
+"    print()\n"
+"\n"
+"def 斐2(n):   # 返回小于n的斐波那契数列\n"
+"    结果 = []\n"
+"    a, b = 0, 1\n"
+"    while b < n:\n"
+"        结果.append(b)\n"
+"        a, b = b, a+b\n"
+"    return 结果"
 
 #: ../../tutorial/modules.rst:45
 msgid ""
@@ -82,7 +104,7 @@ msgstr ""
 
 #: ../../tutorial/modules.rst:48
 msgid ">>> import fibo"
-msgstr ""
+msgstr ">>> import 斐波"
 
 #: ../../tutorial/modules.rst:50
 msgid ""
@@ -100,6 +122,12 @@ msgid ""
 ">>> fibo.__name__\n"
 "'fibo'"
 msgstr ""
+">>> 斐波.斐(1000)\n"
+"1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987\n"
+">>> 斐波.斐2(100)\n"
+"[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]\n"
+">>> 斐波.__name__\n"
+"'斐波'"
 
 #: ../../tutorial/modules.rst:61
 msgid "If you intend to use a function often you can assign it to a local name::"
@@ -111,6 +139,9 @@ msgid ""
 ">>> fib(500)\n"
 "1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
+">>> 斐 = 斐波.斐\n"
+">>> 斐(500)\n"
+"1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:71
 msgid "More on Modules"
@@ -157,6 +188,9 @@ msgid ""
 ">>> fib(500)\n"
 "1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
+">>> from 斐波 import 斐, 斐2\n"
+">>> 斐(500)\n"
+"1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:97
 msgid ""
@@ -174,6 +208,9 @@ msgid ""
 ">>> fib(500)\n"
 "1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
+">>> from 斐波 import *\n"
+">>> 斐(500)\n"
+"1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:106
 msgid ""
@@ -202,6 +239,9 @@ msgid ""
 ">>> fib.fib(500)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
+">>> import 斐波 as 斐\n"
+">>> 斐.斐(500)\n"
+"0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:124
 msgid ""
@@ -220,6 +260,9 @@ msgid ""
 ">>> fibonacci(500)\n"
 "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 msgstr ""
+">>> from 斐波 import 斐 as 斐波那契\n"
+">>> 斐波那契(500)\n"
+"0 1 1 2 3 5 8 13 21 34 55 89 144 233 377"
 
 #: ../../tutorial/modules.rst:136
 msgid ""
@@ -240,7 +283,7 @@ msgstr ""
 
 #: ../../tutorial/modules.rst:150
 msgid "python fibo.py <arguments>"
-msgstr ""
+msgstr "python 斐波.py <arguments>"
 
 #: ../../tutorial/modules.rst:152
 msgid ""

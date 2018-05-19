@@ -1169,7 +1169,7 @@ msgstr ""
 
 #: ../../glossary.rst:671
 msgid "module"
-msgstr ""
+msgstr "module(模块)"
 
 #: ../../glossary.rst:673
 msgid ""
